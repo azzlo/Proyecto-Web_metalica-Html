@@ -1,0 +1,108 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.ulMenu{
+  list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+}
+.liMenu{
+
+  float: left;
+}
+.liMenu a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+.liMenu a:hover{
+  background-color: #111;
+
+}
+.imgLogo{
+  display: inline-block;
+  width: 10%;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+.logo{
+  width: 100%;
+  height: auto;
+}
+.divSocial{
+  display: inline-block;
+  margin-left: 40em;
+}
+.headerTelefono{
+  display: inline-block;
+  padding: 5px;
+  margin-right: 1em;
+}
+.headerCorreo{
+  display: inline-block;
+  padding: 5px;
+  margin-right: 1em;
+}
+.pieCopy{
+  background-color: #333;
+  color: white;
+  padding: 1px;
+  text-align: center;
+}
+#footer1{
+  background: #222;
+  color: white;
+  padding: 3px;
+}
+.pieTelefono{
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  margin-left: 20%;
+  padding: 3px;
+}
+.pieRedesSociales{
+  display: inline-block;
+  margin-left: 10%;
+}
+.pieRedesSociales i{
+  width: 40px;
+  height: auto;
+  font-size: 22px;
+
+}
+.enLinea{
+  display: inline-block;
+  margin-right: 10px;
+}
+#containerProducto{
+  margin: 1em 5em;
+  text-align: center;
+}
+.contenedor-img{
+  width: 350px;
+  height: 250px;
+  display: inline-block;
+  margin: 1em;
+
+}
+.contenedor-img:hover{
+background: #111;
+border-radius: 25px;
+
+
+}
+.imgProducto{
+  width: 100%;
+  height: 100%;
+}
+.imgProducto:hover{
+  opacity: 0.1;
+}
