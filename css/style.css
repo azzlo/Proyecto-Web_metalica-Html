@@ -86,23 +86,100 @@ body{
   margin: 1em 5em;
   text-align: center;
 }
-.contenedor-img{
-  width: 350px;
-  height: 250px;
+div#imagen {
+  width: 300px;
+  height: 200px;
+  background-size: cover;/*sólo para ejemplo*/
+  margin: 30px auto;
+  border-radius: 1em;
+  border:2px solid #666;
+}
+div.imagen1 {
+  background-image: url("../images/producto1.JPG");
+}
+div.imagen2 {
+  background-image: url("../images/producto2.JPG");
+}
+div.imagen3 {
+  background-image: url("../images/producto3.JPG");
+}
+
+div#info {
+  position:absolute;
+  overflow:hidden;
+  width: 300px;
+  height: 200px;
+  background-color: rgba(31, 31, 31, 0.6);
+  opacity:0;
+  transition: opacity 1s;
+  border-radius: 1em;
+}
+
+div#imagen:hover div#info {
+  opacity:1;
+}
+
+p#headline {
+  position: absolute;
+  font-size: 1.5rem;
+  margin-left: -75px;
+  margin-top: 15px;
+  transition: margin-left 0.3s;
+  color: white;
+}
+
+div#imagen:hover p#headline {
+  margin-left: 115px;
+}
+
+p#descripcion {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 200px;
+  transition: margin-top 0.4s;
+  color: white;
+}
+
+div#imagen:hover p#descripcion {
+  margin-top: 75px;
+}
+.seccionProducto{
   display: inline-block;
-  margin: 1em;
+  margin-right: 1em;
+}
+#containerAcercaDe{
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 2%;
+}
+.divAcercaDe{
+  max-width: 60%;
+  max-height: inherit;
+  display: inline-block;
+  margin-right: 1em;
 
 }
-.contenedor-img:hover{
-background: #111;
-border-radius: 25px;
-
-
+.divImgAcercaDe{
+  display: inline-block;
+  width: 38%;
+  height: auto;
+  vertical-align: top;
+  text-align: center;
 }
-.imgProducto{
-  width: 100%;
-  height: 100%;
+.imgAcercaDe{
+  border-top-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  margin: 20px;
+   border: 5px solid #eee;
+   -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+   -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+   box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+   -webkit-transition: all 0.5s ease-out;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
 }
-.imgProducto:hover{
-  opacity: 0.1;
+.imgAcercaDe:hover{
+  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
 }
