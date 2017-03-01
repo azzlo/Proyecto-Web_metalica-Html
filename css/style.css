@@ -208,3 +208,20 @@ div#imagen:hover p#descripcion {
 .tituloContacto{
   text-align: center;
 }
+.circuloServicio{
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background: rgb(56, 190, 39);
+  text-align: center;
+  border: 5px solid white;
+  box-shadow: 5px 5px 5px rgb(56, 190, 39);
+
+}
+.circuloServicio:hover{
+  background: black;
+  box-shadow: 5px 5px 5px black;
+}
+.coche{
+  margin-top: 10px;
+}
