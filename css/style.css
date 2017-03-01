@@ -2,13 +2,19 @@ body{
   margin: 0;
   padding: 0;
 }
+.navMenu{
+ background-color: #333;
+}
 .ulMenu{
   list-style-type: none;
    margin: 0;
    padding: 0;
    overflow: hidden;
    background-color: #333;
+   margin-left: 28%;
+
 }
+
 .liMenu{
 
   float: left;
@@ -182,4 +188,23 @@ div#imagen:hover p#descripcion {
   -webkit-transform: rotate(-7deg);
   -moz-transform: rotate(-7deg);
   -o-transform: rotate(-7deg);
+}
+#containerContacto{
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 2%;
+
+}
+.contactoMapa{
+  margin-right: 2em;
+  width: 49%;
+  text-align: center;
+}
+.contactoCorreo{
+  width: 47%;
+  vertical-align: top;
+
+}
+.tituloContacto{
+  text-align: center;
 }
