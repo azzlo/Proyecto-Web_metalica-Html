@@ -1,17 +1,41 @@
 body{
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
+  background: rgba(229, 225, 209, 0.1);
 }
+h1{
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    color: #C44741;
+}
+h2{
+    font-family: 'Merriweather', serif;
+    color: #2C343B;
+}
+h3{
+    font-family: 'Merriweather', serif;
+}
+h4{
+    font-family: 'Merriweather', serif;
+}
+h5{
+    font-family: 'Merriweather', serif;
+}
+h6{
+    font-family: 'Merriweather', serif;
+}
+
 .navMenu{
- background-color: #333;
+ background-color: #2C343B;
 }
 .ulMenu{
   list-style-type: none;
    margin: 0;
    padding: 0;
    overflow: hidden;
-   background-color: #333;
-   margin-left: 28%;
+   background-color: #2C343B;
+   margin-left: 22%;
 
 }
 
@@ -21,14 +45,17 @@ body{
 }
 .liMenu a{
   display: block;
-  color: white;
+  color: #E5E1D1;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: 'Merriweather', serif;
 
 }
 .liMenu a:hover{
-  background-color: #111;
+  background-color: #52616D;
+  color: #FFFFFF;
+  cursor: pointer;
 
 }
 .imgLogo{
@@ -42,30 +69,50 @@ body{
   width: 100%;
   height: auto;
 }
+.slogan{
+  width: 21%;
+  height: auto;
+}
 .divSocial{
   display: inline-block;
-  margin-left: 40em;
+  width: 35%;
+  height: auto;
+  float: right;
+  margin-top: 4em;
+  color: #2C343B;
+
+}
+.divSocial:hover{
+    color: #C44741;
 }
 .headerTelefono{
   display: inline-block;
   padding: 5px;
   margin-right: 1em;
+
 }
+
 .headerCorreo{
   display: inline-block;
   padding: 5px;
   margin-right: 1em;
+  cursor: pointer;
 }
 .pieCopy{
-  background-color: #333;
-  color: white;
+  background-color:#52616D;
+  color: #E5E1D1;
   padding: 1px;
   text-align: center;
+  font-family: 'Merriweather', serif;
 }
 #footer1{
-  background: #222;
-  color: white;
+  background:#333 ;
+  color: #C44741;
   padding: 3px;
+    font-family: 'Merriweather', serif;
+}
+#footer1:hover{
+  color: white;
 }
 .pieTelefono{
   display: inline-block;
@@ -83,6 +130,9 @@ body{
   height: auto;
   font-size: 22px;
 
+}
+.ifooter:hover{
+cursor: pointer;
 }
 .enLinea{
   display: inline-block;
@@ -158,6 +208,9 @@ div#imagen:hover p#descripcion {
   margin-right: 7%;
   margin-bottom: 2%;
 }
+.iAcerca{
+  color: #52616D;
+}
 .divAcercaDe{
   max-width: 60%;
   max-height: inherit;
@@ -208,7 +261,7 @@ div#imagen:hover p#descripcion {
 .contact_form h2 {
     background: none repeat scroll 0 0 #F3F3F3;
     border-radius: 5px;
-    color: #5CD053;
+    color: #52616D;
     display: block;
     font-family: sans-serif;
     font-size: 20px;
@@ -283,9 +336,9 @@ button.submit {
    line-height: 1;
    color: #444;
    border: none;
-   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
-   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#bbb));
-   background-image: -moz-linear-gradient(0% 100% 90deg, #BBBBBB, #FFFFFF);
+   text-shadow: 0 1px 1px rgba(192, 71, 65, 0.85);
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#E5E1d1));
+   background-image: -moz-linear-gradient(0% 100% 90deg, #E5E1D1, #FFFFFF);
    background-color: #fff;
    border: 1px solid #f1f1f1;
    border-radius: 10px;
@@ -307,15 +360,15 @@ button.submit:active {
   border-radius: 50%;
   width: 75px;
   height: 75px;
-  background: rgb(56, 190, 39);
+  background: #C44741;
   text-align: center;
   border: 5px solid white;
-  box-shadow: 5px 5px 5px rgb(56, 190, 39);
+  box-shadow: 5px 5px 5px #C44741;
 
 }
 .circuloServicio:hover{
-  background: black;
-  box-shadow: 5px 5px 5px black;
+  background: #52616D;
+  box-shadow: 5px 5px 5px #52616D;
 }
 .coche{
   margin-top: 10px;
@@ -326,7 +379,7 @@ button.submit:active {
   text-align: center;
 }
 .pServicio{
-  width: 80%;
+  width: 75%;
   height: auto;
   text-align: justify;
 }
@@ -334,6 +387,7 @@ button.submit:active {
   width: 15%;
   height: auto;
   text-align: center;
+  margin-left: 5%;
 }
 .divServicio{
   vertical-align: middle;
